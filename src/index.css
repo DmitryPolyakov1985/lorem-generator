@@ -60,7 +60,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-3);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -94,7 +94,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-8);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -169,7 +169,8 @@ Lorem Ipsum
 */
 h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-9);
+  font-size: 1.4rem;
 }
 .lorem-form {
   text-transform: capitalize;
@@ -182,7 +183,7 @@ h3 {
 }
 label {
   font-size: 1.25rem;
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-10);
 }
 input {
   padding: 0.25rem 0.5rem;
